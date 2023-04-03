@@ -1,0 +1,48 @@
+/*MAIN*/
+main{
+    height: 60vh;
+    padding: 50px;
+}
+
+.login-top{
+    text-align: center;
+    height: 20%;
+}
+.login-bottom{
+    height: 80%;
+}
+.login-form>div{
+    display: flex;
+    height: 100%;
+    width: 400px;
+    margin: 0 auto;
+    justify-content: center;
+}
+form>div{
+    display: flex;
+    flex-direction: column;
+}
+form>p{
+    font-size: 50px;
+}
+input{
+    padding: 10px;
+    border-radius: 15px;
+}
+button{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+button>p{
+    width: 100%;
+    height: 100%;
+}
+.email{
+    margin-bottom: 5px;
+}

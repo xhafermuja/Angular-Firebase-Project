@@ -1,0 +1,92 @@
+<main>
+
+    <div class="container-header">
+        <h1>Select your Best service at the best Developers!!</h1>
+    </div>
+
+    <div class="container">
+        <div class="container-left">
+            <form action="" id="contact-form">
+                <table class="contact-table">
+                    <tr>
+                        <td>
+                            <label>Firstname :</label>
+                            <input type="text" name="firstName" id="firstName" [(ngModel)]="first_name">
+                        </td>
+                        <td>
+                            <label>Lastname :</label>
+                            <input type="text" name="lastnName" id="lastName" [(ngModel)]="last_name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Email :</label>
+                            <input type="text" name="email" id="email" [(ngModel)]="email">
+                        </td>
+                        <td>
+                            <label>Mobile :</label>
+                            <input type="text" name="mobile" id="mobile" [(ngModel)]="mobile">
+                        </td>
+                    </tr>
+                    <tr class="last-row">
+                        <td>
+                            <label>Service Package's</label>
+                            <select [(ngModel)]="package" id="package" >
+                                <option value="Basic Package">Basic Packpage</option>
+                                <option value="Advanced Package">Advanced Package</option>
+                                <option value="Proffesional Package">Proffesional Package</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label>Country :</label>
+                            <select>
+                                <option value="Sweden">Sweden</option>
+                            </select>
+                        </td>
+    
+                    </tr>
+                    <tr>
+                        
+    
+                    </tr>
+                    <tr>
+                        <td>
+                            <button (click)="addClient()">Send</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="container-right" >
+            <table class="data-table" >
+                <thead>
+                    <tr>
+                        <th scope="col">First Name</th>
+                        <th scope="col">Last Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Mobile</th>
+                        <th scope="col">Package</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let client of clientList">
+                        <td>{{client.first_name}}</td>
+                        <td>{{client.last_name}}</td>
+                        <td>{{client.email}}</td>
+                        <td>{{client.mobile}}</td>
+                        <td>{{client.package}}</td>
+                        <!-- <td>
+                            <button (click)="deleteClient(client)">Delete</button>
+                        </td> -->
+                    </tr>
+                </tbody>
+            </table>
+           
+
+        </div>
+        
+        
+    </div>
+    
+
+</main>

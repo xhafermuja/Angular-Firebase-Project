@@ -1,0 +1,23 @@
+<main>
+    <div class="login-top">
+        <h1>LOGIN</h1>
+    </div>
+
+    <div class="login-bottom">
+        <form action="" method="post" class="login-form">
+            <div class="email">
+                <p>Email : </p>
+                <input type="text" name="email" id="email" [(ngModel)]="email">
+            </div>
+
+            <div class="password">
+                <p>Password : </p>
+                <input type="password" name="password" id="password" [(ngModel)]="password">
+            </div>
+
+            <button type="button" id="loginBtn"  (click)="login()"><p>Login</p></button>
+        </form>
+
+    </div>
+
+</main>

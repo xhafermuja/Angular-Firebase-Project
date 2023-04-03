@@ -1,0 +1,110 @@
+/*FOOTER*/
+footer{
+    background: whitesmoke;
+    height: 350px;
+    color: black;
+    display: flex;
+    padding: 50px;
+    font-size: x-large;
+}
+.footer-left{
+    height: 100%;
+    width: 600px;
+    display: flex;
+    border-right: 1px solid black;
+}
+
+.footer-logo{
+    background: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.footer-location{
+    height: 100%;
+    width: 600px;
+    align-content: center;
+    text-align-last: left;
+    border-right: 1px solid black;
+}
+
+.footer-location-top{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 50%;
+}
+.footer-location-top>p{
+    display: flex;
+    text-align-last: left;
+
+}
+.footer-location-bottom{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-size: 25px;
+
+}
+.phone-number{
+    margin: 15px auto;
+}
+
+.footer-socials{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-socials>a{
+    margin: 20px auto;
+}
+
+.linkedin{
+    background: url("../img/icons8-linkedin-circled-100.png");
+    background-size:cover ;
+    height:50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.facebook{
+    background: url("../img/icons8-facebook-100.png");
+    background-size:cover ;
+    height:50px;
+    width: 50px;
+    cursor: pointer;
+}
+.facebook:hover{
+    background: url("../img/f.png");
+}
+.twitter:hover{
+    background: url("../img/t.png");
+}
+.discord:hover{
+    background: url("../img/d.png");
+}
+.linkedin:hover{
+    background: url("../img/l.png");
+}
+.twitter{
+    background: url("../img/icons8-twitter-100.png");
+    background-size:cover ;
+    height:50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.discord{
+    background: url('../img/icons8-discord-100.png');
+    background-size:cover ;
+    height:50px;
+    width: 50px;
+    cursor: pointer;
+}

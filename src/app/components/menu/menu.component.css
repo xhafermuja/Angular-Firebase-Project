@@ -1,0 +1,21 @@
+
+.header-mid-links{
+    align-content: center;
+    display: flex;
+    width: 100%;
+    font-size: larger;
+
+}
+
+.header-mid-links>a{
+    cursor: pointer;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    justify-self: space-between;
+    color: black;
+    border: 1px solid black;
+    border-radius:10px;
+    width: 100px;
+    height: 30px;
+}

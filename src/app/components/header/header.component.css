@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    background:whitesmoke;
+}
+
+.header-left{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    margin-left: 20px;
+
+}
+.header-left-img {
+    background-image: url(../img/logo.svg) ;
+    background-repeat: round;
+    width: 95px;
+    height: 95px;
+}
+
+
+.header-mid{
+    align-self: center;
+    width: 100%;
+    font-size: large;
+}
+
+.header-right{
+    width: 200px;
+    height: 100px;
+}
+.header-right>h3{
+    margin-top: 20px;
+}
+
+#logutBtn{
+    cursor: pointer;
+    color: red;
+    font-size:  medium;
+    border: none;
+    background: whitesmoke;
+}

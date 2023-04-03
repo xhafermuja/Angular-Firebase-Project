@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "webservicesapp-62578": {
+      "hosting": {
+        "project": [
+          "webservicesapp-62578"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "webservicesapp-62578"
+  }
+}

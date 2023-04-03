@@ -1,0 +1,79 @@
+/*MAIN*/
+main{
+    height: 60vh;
+    padding: 50px;
+}
+
+.container-header{
+    text-align: center;
+}
+
+.contact-table{
+    margin: 0 auto;
+}
+td>* {
+    display: flex;
+}
+
+input{
+    margin-bottom: 20px;
+    height: 30px;
+    width: 300px;
+    border-radius: 15px;;
+    padding: 0px 5px;
+}
+
+.td-msg>textarea{
+    height: 200px;
+    width: 320px;
+    padding: 15px;
+    border-radius: 15px;
+    resize: none;
+}
+
+.last-row{
+    margin-top: 50px;
+}
+
+select{
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+}
+button{
+    margin-top: 30px;
+    padding: 5px 88px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.container-right{
+    margin-top: 10px;
+}
+.contact-table{
+    width: 650px;
+}
+.data-table>thead{
+    text-align: left;
+    height: 50px;
+    padding-left: 5px;
+}
+
+.data-table{
+    background: whitesmoke;
+    width: 650px;
+    border-radius: 15px;
+    border:1px solid black;
+    align-items: center;
+}
+
+tbody>tr>td{
+    margin: 10px 0px;
+    height: 30px;
+    border-top: 1px solid black;
+}

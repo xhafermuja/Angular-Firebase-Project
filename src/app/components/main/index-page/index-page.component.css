@@ -1,0 +1,178 @@
+main{
+    padding: 50px;
+}
+
+.main-header{
+    display: flex;
+    padding: 10px 0px;
+}
+.main-header-img{
+    background: url("../../img/icons8-source-code-100.png");
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.main-intro{
+    text-align: center;
+}
+
+.main-intro{
+    align-items: center;
+    text-align: center;
+    background: url('../../img/photo1.jpg');
+    border-image: linear-gradient(rgb(255, 0, 0), #00f6ff) 30;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 9px;
+    box-sizing: border-box;
+    height: 800px;
+    width: 1800px;
+    margin: auto;
+    color: white;
+}
+
+.bottom{
+    display: flex;
+    padding: 200px;
+    gap:12rem;
+
+}
+.bottom-left{
+    width: 50%;
+}
+.main-intro-txt{
+    margin-top: 15px;
+    height: 50%;
+    font-size: 20px;
+
+}
+.bottom-img{
+    background: url("../../img/Developper_01__Converted__generated.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    border-radius: 100px 100px;
+}
+
+.main-services{
+    display: flex;
+}
+
+.service-card{
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(rgb(255, 0, 0), #00f6ff) 30;
+    border-radius: 30px;
+    padding: 50px;
+    margin: 50px;
+}
+
+.service-card>h3{
+    margin-bottom: 20px;
+}
+.service-card-btn{
+    margin-top: 10px;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: white;
+    background: transparent;
+    /*border-radius: 15px;*/
+    cursor: pointer;
+    /*border-width: 4px;*/
+}
+.service-card-icons-first{
+    margin-top: 20px;
+    height: 100px;
+    width: 395px;
+    display: flex;
+    justify-content: space-between;
+}
+.service-card-icons-second{
+    height: 100px;
+    width: 395px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-card-btn:hover{
+    border: 1px solid white;
+    background: white;
+    color: black;
+    transition: 1s;
+}
+
+.service-card-icon-html{
+    background: url('../../img/html.png');
+    height: 75px;
+    width: 75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.service-card-icon-css{
+    background: url('../../img/css-3.png');
+    height:75px;
+    width: 75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service-card-icon-js{
+    background: url('../../img/java-script.png');
+    height: 75px;
+    width: 75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-card-icon-php{
+    background: url('../../img/php.png');
+    height: 75px;
+    width: 75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-card-icon-mysql{
+    background: url('../../img/mysql.png');
+    height: 75px;
+    width: 75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-card-icon-angular{
+    background: url('../../img/icons8-angularjs-96.png');
+    height: 75px;
+    width: 75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-card-icon-firebase{
+    background: url('../../img/icons8-google-firebase-console-96.png');
+    height: 75px;
+    width: 75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-img{
+    background: url("../../img/icons8-checkmark-40.png");
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.row>p{
+    margin-left: 10px;
+}
