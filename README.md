@@ -25,3 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+![image](https://github.com/xhafermuja/Angular-Firebase-Project/assets/99412161/023d91ba-6b04-41ff-991e-43c06a3e73b7)
+
+The database is with Firebase
